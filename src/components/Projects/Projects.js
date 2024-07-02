@@ -4,6 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Texteditor from "../../Assets/Projects/texteditor.png";
 import Todolist from "../../Assets/Projects/Todolist.png";
+import newsmania from "../../Assets/Projects/newsmania.png";
+import Ecommerce from "../../Assets/Projects/Ecommerce.png";
+
 
 function Projects() {
   return (
@@ -38,6 +41,27 @@ function Projects() {
               demoLink="https://shubh0024.github.io/To-dolist-cognorise/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={newsmania}
+              isBlog={false}
+              title="NewsMania"
+              description="NewsMania is a powerful and user-friendly news application that brings the latest headlines and stories directly to users' fingertips. With its robust features, responsive design, and seamless integration with the News API, NewsNow ensures that users stay informed and engaged with the news that matters most to them. Whether it's breaking news or in-depth articles, NewsNow provides a comprehensive and enjoyable news browsing experience."
+              ghLink="https://github.com/shubh0024/Newsmania"
+              demoLink="https://newsmania-cd0dbezra-shubh0024s-projects.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ecommerce}
+              isBlog={false}
+              title="E commerce shop"
+              description="E-Commerce Shop is a modern and user-friendly online shopping application built with React.js. This app provides users with a seamless shopping experience, allowing them to browse, search, and purchase products effortlessly."
+              ghLink="https://github.com/shubh0024/E-commerce-Website"
+              demoLink="https://shopnow-hazel.vercel.app//"
+            />
+          </Col>
+
 
         
 
