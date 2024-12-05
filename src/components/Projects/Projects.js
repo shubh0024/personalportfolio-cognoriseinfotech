@@ -6,7 +6,8 @@ import Texteditor from "../../Assets/Projects/texteditor.png";
 import Todolist from "../../Assets/Projects/Todolist.png";
 import newsmania from "../../Assets/Projects/newsmania.png";
 import Ecommerce from "../../Assets/Projects/Ecommerce.png";
-
+import BookNest from "../../Assets/Projects/booknest.png";
+import Techtube from "../../Assets/Projects/Techtube.png";
 
 function Projects() {
   return (
@@ -59,6 +60,32 @@ function Projects() {
               description="E-Commerce Shop is a modern and user-friendly online shopping application built with React.js. This app provides users with a seamless shopping experience, allowing them to browse, search, and purchase products effortlessly."
               ghLink="https://github.com/shubh0024/E-commerce-Website"
               demoLink="https://shopnow-hazel.vercel.app//"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BookNest}
+              isBlog={false}
+              title="BookNest"
+              description="Developed a digital coursebook purchasing platform using React.js (frontend), Node.js (backend), and MongoDB
+(database).Implemented a user-friendly, responsive design to enhance the digital coursebook browsing and purchasing
+experience and Integrated backend API endpoints for seamless interaction "
+              ghLink="https://github.com/shubh0024/bookNest"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Techtube}
+              isBlog={false}
+              title="Techtube"
+              description="A video streaming platform dedicated to tech-related content and study materials. Exclusively streams tech-related
+videos, ensuring a specialized and relevant library for users.Allows users to upload and search for study materials,
+making it a valuable resource for tech learners and professionals"
+              ghLink="https://github.com/shubh0024/Techtube"
+             
             />
           </Col>
 
